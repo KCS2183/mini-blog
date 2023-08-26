@@ -37,7 +37,7 @@ function PostWritePage(props) {
                     height={20}
                     value={title}
                     onChange={(event) => {
-                        setContent(event.target.value);
+                        setTitle(event.target.value);
                     }}
                 />
 
